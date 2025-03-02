@@ -24,7 +24,7 @@ namespace DesignPatterns.Core.Structural.Composite
 
         public override LearningResource? GetLearningResource(string name)
         {
-            return children.SingleOrDefault(ls => ls.GetName().Equals(name));
+            return children.SingleOrDefault(ls => ls.Name.Equals(name));
         }
 
         public override string Name => name;

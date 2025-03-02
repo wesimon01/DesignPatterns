@@ -5,7 +5,6 @@
         public async Task<IDevice> GetAsync(Guid deviceId)
         {
             Console.WriteLine($"Getting {deviceId}");
-
             return new SmartTvDevice();
         }
     }
