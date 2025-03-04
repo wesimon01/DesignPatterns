@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creational\Factory\" />
     <Folder Include="Creational\Prototype\" />
     <Folder Include="Structural\Proxy\" />
   </ItemGroup>

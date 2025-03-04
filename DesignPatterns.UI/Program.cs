@@ -7,15 +7,18 @@ var serviceProvider = new ServiceCollection()
     .AddScoped<FacadeService>()
     .AddScoped<CompositeService>()
     .AddScoped<StrategyService>()
+    .AddScoped<FactoryService>()
     .BuildServiceProvider();
 
 var adapterService = serviceProvider.GetRequiredService<AdapterService>();
 var facadeService = serviceProvider.GetRequiredService<FacadeService>();
 var compositeService = serviceProvider.GetRequiredService<CompositeService>();
 var strategyService = serviceProvider.GetRequiredService<StrategyService>();
+var factoryService = serviceProvider.GetRequiredService<FactoryService>();
 
 //adapterService.Run();
 //await facadeService.RunAsync();
 //compositeService.Run();
+//strategyService.Run();
 
-strategyService.Run();
+factoryService.Run();
