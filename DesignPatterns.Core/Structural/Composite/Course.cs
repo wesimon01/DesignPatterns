@@ -1,6 +1,8 @@
 ﻿namespace DesignPatterns.Core.Structural.Composite
 {
-    public class Course(string name, TimeSpan duration, decimal price) : LearningResource
+    public class Course(string name, 
+        TimeSpan duration, 
+        decimal price) : LearningResource
     {
         public override TimeSpan Duration => duration;
 

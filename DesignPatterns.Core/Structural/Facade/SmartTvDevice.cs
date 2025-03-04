@@ -11,7 +11,7 @@
         public async Task<Connection> TurnOnAsync()
         {
             Console.WriteLine("Turning on TV");
-            return new Connection();
+            return await Task.FromResult(new Connection());
         }
     }
 }

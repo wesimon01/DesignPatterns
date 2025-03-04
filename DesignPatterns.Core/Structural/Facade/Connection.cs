@@ -5,8 +5,7 @@
         public async Task<IApp> LaunchAppAsync(string appId)
         {
             Console.WriteLine($"Launching {appId}");
-
-            return new YouTubeApp();
+            return await Task.FromResult(new YouTubeApp());
         }
     }
 }
