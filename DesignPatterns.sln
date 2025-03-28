@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA1D4F95-FB1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.UI", "DesignPatterns.UI\DesignPatterns.UI.csproj", "{E7B2A869-72E3-4F0E-806D-975B55E151F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsForHumans", "DesignPatternsForHumans\DesignPatternsForHumans.csproj", "{38B9DBEE-8786-41DD-B698-B4DA4AADED7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{E7B2A869-72E3-4F0E-806D-975B55E151F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B2A869-72E3-4F0E-806D-975B55E151F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B2A869-72E3-4F0E-806D-975B55E151F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B9DBEE-8786-41DD-B698-B4DA4AADED7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B9DBEE-8786-41DD-B698-B4DA4AADED7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B9DBEE-8786-41DD-B698-B4DA4AADED7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B9DBEE-8786-41DD-B698-B4DA4AADED7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{83B76511-35AB-4A28-A9A0-DC8E25B1C786} = {CA1D4F95-FB1F-4FA5-896B-051BF676685E}
 		{E7B2A869-72E3-4F0E-806D-975B55E151F4} = {CA1D4F95-FB1F-4FA5-896B-051BF676685E}
+		{38B9DBEE-8786-41DD-B698-B4DA4AADED7F} = {CA1D4F95-FB1F-4FA5-896B-051BF676685E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F1065F6-5CA7-45DB-AE32-F9DA3F82D9BC}

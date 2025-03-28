@@ -7,10 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioral\State\" />
-    <Folder Include="Creational\Builder\" />
-    <Folder Include="Creational\Prototype\" />
-    <Folder Include="Structural\Proxy\" />
+    <Folder Include="Behavioral\" />
+    <Folder Include="Creational\AbstractFactory\" />
+    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>
